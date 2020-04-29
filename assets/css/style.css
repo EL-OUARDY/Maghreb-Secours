@@ -1,0 +1,386 @@
+/*
+  FirstColor: #08526d / #2DCC70
+  SecondColor: #ec1c23
+*/
+
+/* Start Top Bar */
+
+.upper-bar {
+  background-color: #08526d;
+  color: #fff;
+}
+
+.upper-bar .info {
+  margin: 5px 0;
+}
+
+@media (max-width: 576px) {
+  .upper-bar .info:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.upper-bar span {
+  color: #bfc6c9;
+}
+
+.upper-bar .get-quote {
+  display: inline-block;
+  border: 1px solid #ec1c23;
+  padding: 2px 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .upper-bar .get-quote {
+    border: none;
+    margin-left: 5px;
+  }
+}
+
+/* End top Bar */
+/* Start Navbar */
+
+.navbar-brand > span {
+  font-size: 40px;
+}
+
+.navbar-brand span:first-child {
+  color: #08526d;
+  font-weight: bold;
+}
+
+.navbar-brand span:last-child {
+  color: #ec1c23;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: #08526d;
+  font-weight: bold;
+}
+
+.navbar-nav .active > .nav-link {
+  color: #ec1c23 !important;
+}
+/* End navBar */
+/* Start Slider */
+
+.slider {
+  background-color: #eee;
+}
+
+.slider .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+@media (max-width: 768px) {
+  .slider .carousel-inner {
+    justify-content: center;
+  }
+}
+
+.slider .carousel-inner h1 {
+  position: absolute;
+  color: #fff;
+  z-index: 3;
+  font-size: 70px;
+  max-width: 900px;
+  left: 100px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .slider .carousel-inner h1 {
+    font-size: 40px;
+    max-width: 100%;
+    left: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .slider .carousel-inner h1 {
+    font-size: 50px;
+  }
+}
+
+.slider .carousel-inner h1 span {
+  background-color: #ec1c23;
+  color: #fff;
+  display: inline-block;
+  padding: 2px 10px;
+}
+
+.slider .carousel-inner .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.slider .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slider .carousel-one {
+  background-image: url("../../images/1.jpg");
+}
+
+.slider .carousel-two {
+  background-image: url("../../images/2.jpg");
+}
+
+.slider .carousel-three {
+  background-image: url("../../images/3.jpg");
+}
+.slider .carousel-four {
+  background-image: url("../../images/4.jpg");
+}
+
+.slider .carousel-indicators li {
+  height: 8px;
+  cursor: pointer;
+}
+
+/* End Slider */
+
+/* Pics */
+.pics {
+  padding-top: 15px;
+}
+.pics .img-thumbnail {
+  height: 250px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* End Pics */
+
+/* Start Plans */
+.plans img {
+  max-width: 100%;
+}
+
+.plans .info {
+  padding: 0;
+}
+.plans .info {
+  margin-top: 10px;
+  padding-top: 30px;
+}
+.plans .info:first-child {
+  background-color: #08526d;
+  color: #fff;
+}
+
+.plans .h1 {
+  margin: 40px;
+}
+
+.plans .info.col-xl-6 > p {
+  margin: 20px 40px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.plans .read-more {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 0 0 0 40px;
+  background-color: #ed1d24;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plansbox {
+  margin: 0 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.plansbox .h1 {
+  margin: 0 0 40px 0;
+}
+
+.plansbox hr {
+  margin-top: 10px;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.plansbox .certificate p {
+  background: #ddd;
+  padding: 10px;
+}
+.plansbox .main {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.plansbox .main h2 {
+  margin: 25px 0 20px 40px;
+}
+
+.plansbox .main p {
+  margin: 0 0 10px 40px;
+}
+
+.plansbox .main p:last-of-type {
+  margin-top: 25px;
+}
+
+.plansbox .exp {
+  float: left;
+  width: 100% !important;
+}
+
+.plansbox .exp h3 {
+  margin-bottom: 10px;
+}
+
+.plansbox .exp span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.plansbox .exp span:first-of-type {
+  color: #999;
+}
+
+.plansbox .exp span:last-of-type {
+  background-color: #2dcc70;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 10px;
+}
+
+a.plan-itinerances {
+  background-color: #2dcc70 !important;
+  margin: 0 !important;
+}
+
+.underPlansLogo {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
+/* End Plans */
+.radius5px {
+  border-radius: 5px;
+}
+
+/* Features */
+
+.features {
+  padding: 80px 0 60px;
+}
+
+.features i {
+  background-color: #ed1d24;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 58px;
+  height: 58px;
+  line-height: 60px;
+}
+.bbox {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+.features .features-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background: #eee;
+  padding: 8px;
+}
+
+.features h3 {
+  color: #08526d;
+  font-size: 22px;
+}
+
+.features p {
+  color: #989898;
+  margin-bottom: 40px;
+}
+
+/* End Features */
+/* equipe */
+
+.equipe {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../../images/testimonial.jpg");
+  position: relative;
+}
+.equipe .equipe-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+.equipe .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.equipe .container {
+  position: relative;
+  z-index: 3;
+}
+
+.equipe .carousel-caption {
+  top: 50%;
+  margin-top: -158px;
+}
+
+.equipe .carousel-caption img {
+  margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.equipe .carousel-caption h3 {
+  margin-bottom: 5px;
+}
+
+.equipe .carousel-caption h3 + span {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.equipe .carousel-indicators li {
+  height: 8px;
+  cursor: pointer;
+}
+
+/* End equipe */
