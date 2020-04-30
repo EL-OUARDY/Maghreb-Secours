@@ -3,7 +3,6 @@
     FirstColor: #08526d / #2DCC70
     SecondColor: #ec1c23
 */
-
 /* Start Top Bar */
 
 .upper-bar {
@@ -44,8 +43,8 @@
 /* End top Bar */
 /* Start Navbar */
 .navbar-brand img{
-    height: 60px !important;
-    width: 100px !important;
+    height: 50px !important;
+    width: 70px !important;
 }
 .navbar-brand > span {
   font-size: 40px;
@@ -76,6 +75,7 @@
 
 .slider {
   background-color: #eee;
+  min-height: 100%;
 }
 
 .slider .carousel-inner {
@@ -87,6 +87,12 @@
 @media (max-width: 768px) {
   .slider .carousel-inner {
     justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider .carousel-inner h1 {
+    font-size: 30px !important;
   }
 }
 
@@ -282,7 +288,7 @@ a.plan-itinerances {
 
 .underPlansLogo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   height: 100px;
 }
 /* End Plans */
